@@ -9,7 +9,7 @@ jobs:
     # Name the Job
     name: Lint Code Base
     # Set the type of machine to run on
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     env:
       OS: ${{ matrix.os }}
