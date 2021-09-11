@@ -9,11 +9,11 @@ jobs:
     # Name the Job
     name: Lint Code Base
     # Set the type of machine to run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     env:
       OS: ${{ matrix.os }}
-      PYTHON: '3.9'
+      PYTHON: '3.7'
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
